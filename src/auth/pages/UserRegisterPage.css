@@ -1,0 +1,45 @@
+.register-page {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-page .card {
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.register-page .card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.register-page .card-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.register-page .form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.register-page .btn {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.register-page .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.register-page .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

@@ -1,0 +1,46 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+.register-page {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-page .card {
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.register-page h2 {
+    color: #343a40; /* Darker heading color */
+    font-weight: 700;
+}
+
+.register-page img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.register-page .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+    font-weight: 600;
+}
+
+.register-page .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.register-page .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.register-page .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,108 @@
+.animated-background {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.content-container {
+    z-index: 1;
+    position: relative;
+    background: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.consumo-page {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.consumo-table th, .consumo-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.consumo-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.consumo-table td {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.consumo-row:hover {
+    background-color: #f1f1f1;
+}
+
+.consumo-total {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.custom-date-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-date-picker-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.custom-date-picker-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-date-picker-input {
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ced4da;
+    width: 100%;
+    max-width: 300px;
+}
+
+.custom-date-picker-icon {
+    position: absolute;
+    right: 10px;
+    color: #ced4da;
+}
